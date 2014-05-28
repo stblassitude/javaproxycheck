@@ -1,0 +1,11 @@
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+manifest.mainAttributes("Main-Class" : "de.lassitu.JavaProxyCheck")
