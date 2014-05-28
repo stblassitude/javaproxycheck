@@ -10,6 +10,7 @@ class JavaProxyCheck {
 
 				if (args.length == 0) {
 					System.err.println("usage: java -jar JavaProxyCheck.jar http://www.example.com/");
+					System.exit(64);
 				}				
 				for (String a : args) {
 						try {
